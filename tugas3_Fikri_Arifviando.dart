@@ -12,6 +12,7 @@ void main(List<String> args) async {
     print(hasil);
   } catch (eror) {
     print(eror);
+    kecepatanmobil();
   }
 
   try {
@@ -19,6 +20,8 @@ void main(List<String> args) async {
     print(dataorder);
   } catch (eror) {
     print(eror);
+  } finally {
+    
   }
 }
 
